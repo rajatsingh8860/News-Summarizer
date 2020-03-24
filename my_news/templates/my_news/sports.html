@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script async defer crossorigin="anonymous" 
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0"></script></head>
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/country_news">Home</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="/country_news/My_technology_news">My Technology News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/country_news/My_sports_news">My Sports News</a>
+        </li>   
+      
+      </ul>
+    </div>
+  </nav>
+
+    <div class="jumbotron">
+        <center><h1>News Aggregator</h1>
+            <a class="btn btn-primary btn-lg" href="/second" role="button">voice search</a> 
+        </form>
+    </center>
+    </div>
+    <div class="container">
+        <div class="container">
+        
+          
+  
+        {% if c_a_s > 5 %}
+        <div class="card mb-4 shadow-sm">
+            <img src={{a_img_s}} class="bd-placeholder-img card-img-top" width="100%" height="350" />
+            <div class="card-body">
+              <b>{{a_h_s}}</b>
+              <p class="card-text">{{sum_a_s}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                    <a href="/first_s/0" class="btn btn-primary">Continue reading</a>
+                    <a href="/second_speech/0" class="btn btn-primary">Audio</a>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
+         
+         {% if c_b_s > 5 %}
+          <div class="card mb-4 shadow-sm">
+            <img src={{b_img_s}} class="bd-placeholder-img card-img-top" width="100%" height="350" />
+            <div class="card-body">
+              <b>{{b_h_s}}</b>
+              <p class="card-text">{{sum_b_s}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                    <a href="/first_s/1" class="btn btn-primary">Continue reading</a>
+                    <a href="/second_speech/1" class="btn btn-primary">Audio</a>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
+       
+          {% if c_c_s > 5 %}
+          <div class="card mb-4 shadow-sm">
+            <img src={{c_img_s}} class="bd-placeholder-img card-img-top" width="100%" height="350" />
+            <div class="card-body">
+              <b>{{c_h_s}}</b>
+              <p class="card-text">{{sum_c_s}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="/first_s/2" class="btn btn-primary">Continue reading</a>
+                <a href="/second_speech/2" class="btn btn-primary">Audio</a>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
+       
+          {% if c_d_s > 5 %}
+          <div class="card mb-4 shadow-sm">
+            <img src={{d_img_s}} class="bd-placeholder-img card-img-top" width="100%" height="350" />
+            <div class="card-body">
+              <b>{{d_h_s}}</b>
+              <p class="card-text">{{sum_d_s}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="/first_s/3" class="btn btn-primary">Continue reading</a>
+                <a href="/second_speech/3" class="btn btn-primary">Audio</a>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
+          {% if c_e_s > 5 %}
+          <div class="card mb-4 shadow-sm">
+            <img src={{e_img_s}} class="bd-placeholder-img card-img-top" width="100%" height="350" />
+            <div class="card-body">
+              <b>{{e_h_s}}</b>
+              <p class="card-text">{{sum_e_s}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="/first_s/4" class="btn btn-primary">Continue reading</a>
+                <a href="/second_speech/4" class="btn btn-primary">Audio</a>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
+          
+          {% if c_f_s > 5 %}
+          <div class="card mb-4 shadow-sm">
+            <img src={{f_img_s}} class="bd-placeholder-img card-img-top" width="100%" height="350" />
+            <div class="card-body">
+              <b>{{f_h_s}}</b>
+              <p class="card-text">{{sum_f_s}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="/first_s/5" class="btn btn-primary">Continue reading</a>
+                <a href="/second_speech/5" class="btn btn-primary">Audio</a>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
+          {% if c_g_s > 5 %}
+          <div class="card mb-4 shadow-sm">
+            <img src={{g_img_s}} class="bd-placeholder-img card-img-top" width="100%" height="350" />
+            <div class="card-body">
+              <b>{{g_h_s}}</b>
+              <p class="card-text">{{sum_g_s}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="/first_s/6" class="btn btn-primary">Continue reading</a>
+                <a href="/second_speech/6" class="btn btn-primary">Audio</a>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+        
+         
+          {% if c_h_s > 5 %}
+          <div class="card mb-4 shadow-sm">
+            <img src={{h_img_s}} class="bd-placeholder-img card-img-top" width="100%" height="350" />
+            <div class="card-body">
+              <b>{{h_h_s}}</b>
+              <p class="card-text">{{sum_h_s}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="/first_s/7" class="btn btn-primary">Continue reading</a>
+                <a href="/second_speech/7" class="btn btn-primary">Audio</a>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
+          {% if c_i_s > 5 %}
+          <div class="card mb-4 shadow-sm">
+            <img src={{i_img_s}} class="bd-placeholder-img card-img-top" width="100%" height="350" />
+            <div class="card-body">
+              <b>{{i_h_s}}</b>
+              <p class="card-text">{{sum_i_s}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="/first_s/8" class="btn btn-primary">Continue reading</a>
+                <a href="/second_speech/8" class="btn btn-primary">Audio</a>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
+          {% if c_j_s > 5 %}
+          <div class="card mb-4 shadow-sm">
+            <img src={{j_img_s}} class="bd-placeholder-img card-img-top" width="100%" height="350" />
+            <div class="card-body">
+              <b>{{j_h_s}}</b>
+              <p class="card-text">{{sum_j_s}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="/first_s/9" class="btn btn-primary">Continue reading</a>
+                <a href="/second_speech/9" class="btn btn-primary">Audio</a>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
+          
+          {% if c_k_s > 5 %}
+          <div class="card mb-4 shadow-sm">
+            <img src={{k_img_s}} class="bd-placeholder-img card-img-top" width="100%" height="350" />
+            <div class="card-body">
+              <b>{{k_h_s}}</b>
+              <p class="card-text">{{sum_k_s}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="/first_s/10" class="btn btn-primary">Continue reading</a>
+                <a href="/second_speech/10" class="btn btn-primary">Audio</a>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
+          {% if c_m_s > 5 %}
+          <div class="card mb-4 shadow-sm">
+            <img src={{m_img_s}} class="bd-placeholder-img card-img-top" width="100%" height="350" />
+            <div class="card-body">
+              <b>{{m_h_s}}</b>
+              <p class="card-text">{{sum_m_s}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="/first_s/12" class="btn btn-primary">Continue reading</a>
+                <a href="/second_speech/12" class="btn btn-primary">Audio</a>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
+          
+          {% if c_n_s > 5 %}
+          <div class="card mb-4 shadow-sm">
+            <img src={{n_img_s}} class="bd-placeholder-img card-img-top" width="100%" height="350" />
+            <div class="card-body">
+              <b>{{n_h_s}}</b>
+              <p class="card-text">{{sum_n_s}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <a href="/first_s/13" class="stretched-link">Continue reading</a>
+                    <a href="/second_speech/13" class="btn btn-primary">Audio</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
+        
+          {% if c_o_s > 5 %}
+          <div class="card mb-4 shadow-sm">
+            <img src={{o_img_s}} class="bd-placeholder-img card-img-top" width="100%" height="350" />
+            <div class="card-body">
+              <b>{{o_h_s}}</b>
+              <p class="card-text">{{sum_o_s}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="/first_s/14" class="btn btn-primary">Continue reading</a>
+                <a href="/second_speech/14" class="btn btn-primary">Audio</a>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
+         
+          {% if c_p_s > 5 %}
+          <div class="card mb-4 shadow-sm">
+            <img src={{p_img_s}} class="bd-placeholder-img card-img-top" width="100%" height="350" />
+            <div class="card-body">
+              <b>{{p_h_s}}</b>
+              <p class="card-text">{{sum_p_s}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="/first_s/15" class="btn btn-primary">Continue reading</a>
+                <a href="/second_speech/15" class="btn btn-primary">Audio</a>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
+          
+          {% if c_q_s > 5 %}
+          <div class="card mb-4 shadow-sm">
+            <img src={{q_img_s}} class="bd-placeholder-img card-img-top" width="100%" height="350" />
+            <div class="card-body">
+              <b>{{q_h_s}}</b>
+              <p class="card-text">{{sum_q_s}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="/first_s/16" class="btn btn-primary">Continue reading</a>
+                <a href="/second_speech/16" class="btn btn-primary">Audio</a>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
+          {% if c_r_s > 5 %}
+          <div class="card mb-4 shadow-sm">
+            <img src={{r_img_s}} class="bd-placeholder-img card-img-top" width="100%" height="350" />
+            <div class="card-body">
+              <b>{{r_h_s}}</b>
+              <p class="card-text">{{sum_r_s}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="/first_s/17" class="btn btn-primary">Continue reading</a>
+                <a href="/second_speech/17" class="btn btn-primary">Audio</a>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
+          {% if c_s_s > 5 %}
+          <div class="card mb-4 shadow-sm">
+            <img src={{s_img_s}} class="bd-placeholder-img card-img-top" width="100%" height="350" />
+            <div class="card-body">
+              <b>{{s_h_s}}</b>
+              <p class="card-text">{{sum_s_s}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="/first_s/18" class="btn btn-primary">Continue reading</a>
+                <a href="/second_speech/18" class="btn btn-primary">Audio</a>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
+         
+          {% if c_t_s > 5 %}
+          <div class="card mb-4 shadow-sm">
+            <img src={{t_img_s}} class="bd-placeholder-img card-img-top" width="100%" height="350" />
+            <div class="card-body">
+              <b>{{t_h_s}}</b>
+              <p class="card-text">{{sum_t_s}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <a href="/first_s/19" class="btn btn-primary">Continue reading</a>
+                <a href="/second_speech/19" class="btn btn-primary">Audio</a>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+        
+       
+
+</div>
+    <script
+src="http://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
